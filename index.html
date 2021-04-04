@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">Basic Calculator</h1>
+        <div class="cal">
+            <div class="output">
+                <input colspan="4" type="text" id="input" />
+            </div>
+            <div class="input">
+                <button class="operator" id="C" onclick="clr()">C</button>
+                <button class="operator" id="*" onclick="dis('*')">*</button>
+                <button class="operator" id="%" onclick="dis('/')">/</button>
+                <button class="operator" id="+" onclick="dis('+')">+</button>
+                <button class="operand" id="7" onclick="dis('7')">7</button>
+                <button class="operand" id="8" onclick="dis('8')">8</button>
+                <button class="operand" id="9" onclick="dis('9')">9</button>
+                <button class="operator" id="-" onclick="dis('-')">-</button>
+                <button class="operand" id="4" onclick="dis('4')">4</button>
+                <button class="operand" id="5" onclick="dis('5')">5</button>
+                <button class="operand" id="6" onclick="dis('6')">6</button>
+                <button class="operator" id="." onclick="dis('.')">.</button>
+                <button class="operand" id="1" onclick="dis('1')">1</button>
+                <button class="operand" id="2" onclick="dis('2')">2</button>
+                <button class="operand" id="3" onclick="dis('3')">3</button>
+                <button class="solve" id="result" onclick="solve()">=</button>
+                <button class="blank" id="blank3" onclick="dis('00')">00</button>
+                <button class="operand" id="zero" onclick="dis('0')">0</button>
+                <button class="blank" id="blank2" onclick="dis('%')">%</button>
+                <!-- <button class="blank" id="blank1">.</button> -->
+
+
+            </div>
+        </div>
+
+
+    </header>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
